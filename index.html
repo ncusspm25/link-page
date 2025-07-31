@@ -6,53 +6,70 @@
   <title>Yugo Ho 的個人連結頁</title>
   <style>
     body {
-      font-family: "Helvetica", "Arial", sans-serif;
+      font-family: "Helvetica Neue", Arial, sans-serif;
       text-align: center;
-      padding-top: 100px;
-      background-color: #f0f2f5;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      padding: 40px 20px 20px 20px;
+    }
+    header img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
     h1 {
-      color: #333;
-      font-size: 32px;
+      margin: 10px 0 5px;
+      font-size: 28px;
+    }
+    .links {
+      margin: 40px auto;
+      max-width: 400px;
     }
     a.button {
-      display: inline-block;
-      margin: 15px;
-      padding: 15px 30px;
+      display: block;
+      margin: 20px auto;
+      padding: 15px 25px;
+      background-color: #0077b5;
+      color: white;
       font-size: 18px;
       text-decoration: none;
-      color: white;
       border-radius: 8px;
-      transition: background-color 0.3s, transform 0.2s;
+      transition: background 0.3s, transform 0.2s;
     }
     a.button:hover {
+      background-color: #005582;
       transform: scale(1.05);
     }
-    .dance {
-      background-color: #e4405f;
-    }
-    .company {
-      background-color: #4CAF50;
-    }
-    .linkedin {
-      background-color: #0077b5;
-    }
+    a.ig { background-color: #e4405f; }
+    a.company { background-color: #4CAF50; }
   </style>
 </head>
 <body>
-  <h1>Yugo Ho 的個人連結頁</h1>
 
-  <a class="button dance" href="https://www.instagram.com/reel/DMlvU7sTCi8/?igsh=MTMyZncwYmdycDl6OQ==" target="_blank">
-    🎵 IG 跳舞影片
-  </a><br>
+  <header>
+    <h1>Yugo Ho</h1>
+    <p>Welcome to my link page</p>
+    <img src="my_photo.jpg" alt="Yugo Ho Dance Photo">
+  </header>
 
-  <a class="button company" href="https://www.realtek.com/" target="_blank">
-    🏢 Realtek 公司網站
-  </a><br>
-
-  <a class="button linkedin" href="https://www.linkedin.com/in/yugo-ho-766061225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
-    💼 LinkedIn 個人頁面
-  </a>
+  <div class="links">
+    <a class="button ig" href="https://www.instagram.com/reel/DMlvU7sTCi8/?igsh=MTMyZncwYmdycDl6OQ==" target="_blank">
+      🎵 IG 跳舞影片
+    </a>
+    <a class="button company" href="https://www.realtek.com/" target="_blank">
+      🏢 Realtek 公司網站
+    </a>
+    <a class="button" href="https://www.linkedin.com/in/yugo-ho-766061225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+      💼 LinkedIn 個人頁面
+    </a>
+  </div>
 
 </body>
 </html>
